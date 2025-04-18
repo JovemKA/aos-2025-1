@@ -1,0 +1,16 @@
+# Ignorar arquivos de log
+*.log
+s
+# Ignorar diretórios de build
+build/
+
+# Ignorar arquivos de configuração sensíveis
+.env
+.gitignore
+
+# Ignorar arquivos de IDE
+.idea/
+*.iml
+
+# Ignorar arquivos de debug
+*.debug
