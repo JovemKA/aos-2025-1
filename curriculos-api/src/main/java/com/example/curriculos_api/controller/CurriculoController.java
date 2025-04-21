@@ -37,4 +37,12 @@ public class CurriculoController {
         curriculoService.delete(id);
         return ResponseEntity.noContent().build();
     }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Curriculo> updateCurriculo(@PathVariable Long id, @RequestBody Curriculo curriculo) {
+        Curriculo curriculoAtualizado = curriculoService.update(id, curriculo);
+        return curriculoAtualizado != null ? 
+           ResponseEntity.ok(curriculoAtualizado) : 
+           ResponseEntity.notFound().build();
+    }
 }
