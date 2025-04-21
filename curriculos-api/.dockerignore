@@ -1,0 +1,26 @@
+# Ignorar arquivos de build
+target/
+*.jar
+
+# Ignorar arquivos de configuração do Maven
+*.iml
+*.class
+*.log
+
+# Ignorar diretórios do IDE
+.idea/
+.vscode/
+
+# Ignorar arquivos de cache
+.cache/
+.DS_Store
+
+# Ignorar diretórios de build
+build/
+
+# Ignorar arquivos de configuração sensíveis
+.env
+.gitignore
+
+# Ignorar arquivos de debug
+*.debug
