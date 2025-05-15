@@ -1,0 +1,29 @@
+{
+  "name": "express-01",
+  "version": "1.0.0",
+  "description": "Aplicação miníma em Node.js com Express.",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node api/index.js"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "npm"
+  ],
+  "author": "MIT",
+  "type": "commonjs",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9",
+    "pg": "^8.15.6",
+    "sequelize": "^6.37.7",
+    "uuid": "^11.1.0"
+  }
+}
